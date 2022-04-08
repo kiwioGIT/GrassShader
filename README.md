@@ -9,4 +9,6 @@ Open project and drag and drop the grass shader material (grass_blade_shade_mat.
 ![OnPaste 20220408-175202](https://user-images.githubusercontent.com/67319505/162481007-60dd0363-b1b8-4a47-969d-3023bb321926.png)
 ![OnPaste 20220408-181406](https://user-images.githubusercontent.com/67319505/162481518-8ae9cb61-0a27-401a-9b5a-bd78e7248839.png)
 
-![OnPaste 20220408-175202](https://user-images.githubusercontent.com/67319505/162483803-dbebfa21-91fa-427d-9208-d333cb304c7f.png)
+
+
+![OnPaste 20220408-182834](https://user-images.githubusercontent.com/67319505/162483883-09cc28f0-7ab7-4cc1-a150-e192e378c97a.png)
