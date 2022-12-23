@@ -25,14 +25,6 @@ float sclamp(float f,float sc){
 	return clamp(((f-0.5)*sc)+0.5,0.0,1.0);
 }
 
-void fragment()
-{
-	ALBEDO = mix(bot_color,top_color,(vert.y+color_grad_height)*color_scale).xyz;
-	NORMAL *= FRONT_FACING ? 1.0 : -1.0;
-	SPECULAR = 0.5;
-	ROUGHNESS = clamp(1.0-(sclamp(curent_wind,0.8)*grass_roughness),0.2,1);
-}
-
 void vertex()
 {
 	VERTEX *= grass_scale;
@@ -44,4 +36,13 @@ void vertex()
 	VERTEX += normalize(sway_dir_local.xyz) * sway * (VERTEX.y) *  sclamp(curent_wind,1.5);
 	VERTEX.y -= sway_*abs(pow(VERTEX.x,sway_pow));
 	
-}"
+}
+
+void fragment()
+{
+	ALBEDO = mix(bot_color,top_color,(vert.y+color_grad_height)*color_scale).xyz;
+	NORMAL *= FRONT_FACING ? 1.0 : -1.0;
+	SPECULAR = 0.5;
+	ROUGHNESS = clamp(1.0-(sclamp(curent_wind,0.8)*grass_roughness),0.2,1);
+}
+"
