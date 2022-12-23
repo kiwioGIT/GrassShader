@@ -1,8 +1,6 @@
 # GrassShader
 ![OnPaste 20220408-175202](https://user-images.githubusercontent.com/67319505/162478117-91e57ea8-7e5b-4251-8937-c8d9d768e5b4.png)
 Shader for multimesh grass in godot with animated wind
-# Set up
-Open project and drag and drop the grass shader material (grass_blade_shade_mat.tres) in the mesh in the multimeshInstance as a material of surface 1
 
 # showcase
 ![OnPaste 20220408-180332](https://user-images.githubusercontent.com/67319505/162480991-63727584-85e1-4b4f-9c1c-cc5ed0900ac8.png)
